@@ -1,12 +1,12 @@
-let count = 1;
-let ant = '1';
+let count = 1,
+    ant = '1';
 
 console.log('1 \n')
 
 while(true) {
-  let antTmp = ant;
+  let antTmp = ant,
+      tmp = antTmp.split('');
   ant = '';
-  let tmp = antTmp.split('');
   for(var j = 0, len = tmp.length; j < len; j++ ) {
     let v = j + 1;
     if(tmp[j] == tmp[v]) {
