@@ -1,6 +1,3 @@
-const cluster = require('cluster');
-const numCPUs = require('os').cpus().length;
-
 let count = 1;
 let ant = '1';
 
